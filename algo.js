@@ -40,3 +40,12 @@ for (var x=1;x<arr.length;x++){
     }
 }
 console.log (max)
+
+// Assignment: Find Average***************
+// Find average
+var arr = [1,3,5,7,20];
+var sum = 0;                                        // sum = 36
+for (var x=0;x<arr.length;x++){
+    sum = sum + arr[x]        //sum += arr[x]    => sum = 16 + arr[4] => sum = 16 + 20 => sum = 36
+}
+console.log(sum/arr.length);    // 36/5
