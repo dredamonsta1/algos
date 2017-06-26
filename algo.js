@@ -30,3 +30,13 @@ var x = [1,21,3,4,5];
 for (var i = 0; i<x.length; i++){
 console.log(x);
 }
+
+// max***************
+var arr=[-3, 3, 5, 70, 10];
+var max= arr[0];
+for (var x=1;x<arr.length;x++){
+    if(arr[x] > max){                    //if(3 > -3)    => if(arr[0] > max)
+        max = arr[x];                    // max = arr[1] => max = 3
+    }
+}
+console.log (max)
