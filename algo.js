@@ -17,8 +17,16 @@ for (var x = 0; x<= 1000; x++){
 }
 
 // sum of all odd 1 - 5000**********
+
 var sum =0;
 for(var i=1; i<5000; i=i+2){
   sum = sum + i;
 }
 console.log(sum);
+
+// iterate array***********
+
+var x = [1,21,3,4,5];
+for (var i = 0; i<x.length; i++){
+console.log(x);
+}
