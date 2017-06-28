@@ -75,3 +75,25 @@ console.log(y);
 //     console.log(x);
 //   }
 // }
+
+
+function greaterThanY(y){
+    var arr = [1,3,5,7];
+
+    var count = 0;
+    for(var x=0;x<arr.length;x++){
+        if(arr[x] > y){
+          count++;
+        }
+    }
+    console.log(count);
+}
+greaterThanY(1);
+
+// square the values
+
+var arr = [1, 5, 10, 3];
+for (var i = 0; i<arr.length; i++){
+  arr[i] = arr[i] * arr[i];
+}
+console.log (arr);
