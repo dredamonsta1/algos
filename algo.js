@@ -97,3 +97,39 @@ for (var i = 0; i<arr.length; i++){
   arr[i] = arr[i] * arr[i];
 }
 console.log (arr);
+
+
+// Eliminate Negative Numbers
+var arr = [1,5, -10, -2];
+for (var x = 0; x<arr.length; x++){
+  if (arr[x] < 0 ){
+      arr[x] = arr[x] - arr[x];
+  }
+
+}
+console.log(arr);
+
+
+// max min avg**************
+
+
+var x = [1, 5, 10, -2];
+var max = x[0];
+var min = x[0];
+var sum = 0;
+sum = sum + x[0];
+for(var i=0; i<x.length; i++)
+{
+  if(x[i] > max)
+  {
+    max =x[i];
+  }
+  if(x[i] < min)
+  {
+    min = x[i];
+  }
+  sum = sum + x[i];
+}
+console.log('max is', max);
+console.log('min is', min);
+console.log('average is', sum/x.length);
