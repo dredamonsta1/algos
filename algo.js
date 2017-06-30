@@ -133,3 +133,22 @@ for(var i=0; i<x.length; i++)
 console.log('max is', max);
 console.log('min is', min);
 console.log('average is', sum/x.length);
+
+
+// Shifting the values in the array**************
+
+var a = [1,5, 10, 7, -2];
+var b = a.shift();
+var b = a.push(0);
+
+console.log(a); // [2, 3]
+console.log(b); // 1
+
+// *******************************better 
+x = [1, 5, 10, 7, -2];
+for(var i = 0; i<x.length-1; i++)
+{
+    x[i] = x[i+1];
+}
+x[x.length-1] = 0;
+console.log (x);
