@@ -144,7 +144,7 @@ var b = a.push(0);
 console.log(a); // [2, 3]
 console.log(b); // 1
 
-// *******************************better 
+// *******************************better
 x = [1, 5, 10, 7, -2];
 for(var i = 0; i<x.length-1; i++)
 {
@@ -152,3 +152,16 @@ for(var i = 0; i<x.length-1; i++)
 }
 x[x.length-1] = 0;
 console.log (x);
+
+
+// number to string*******************
+
+var n = [-1, -3, 2]
+for ( i = 0; i<n.length-1; i++)
+{
+  if (n[i] < 0);{
+    n[i] = "dojo";
+  }
+
+}
+console.log (n);
