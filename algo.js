@@ -165,3 +165,14 @@ for ( i = 0; i<n.length-1; i++)
 
 }
 console.log (n);
+
+
+// random array*******************
+
+var arr=[];
+for (var i=0; i<10; i++)
+{
+  var random_int = Math.floor(Math.random()*101);
+  arr.push(random_int);
+}
+console.log(arr);
